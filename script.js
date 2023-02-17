@@ -1,5 +1,7 @@
-var btn = document.getElementById("btnClickMe");
-
-btn.onclick = function(){
-    alert("Botão clicado!!!");
+window.onload = function(){ 
+    var btn = document.getElementById("btnClickMe");
+    
+    btn.onclick = function(){
+        alert("Botão clicado!!!");
+    }
 }
